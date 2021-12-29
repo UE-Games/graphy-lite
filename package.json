@@ -1,0 +1,20 @@
+{
+    "name": "com.unient.graphylite",
+    "version": "1.0.0",
+    "displayName": "GraphyLite",
+    "description": "A very lightweight fork of famous Graphy FPS library, but much simpler and optimized. Also, a bit visually aligned, I hope.",
+    "license": "MIT",
+    "unity": "2019.3",
+    "unityRelease": "0f3",
+    "dependencies": {},
+    "keywords": [
+        "fps",
+        "statistics",
+        "meter",
+        "performance"
+    ],
+    "author": {
+        "name": "Vaclav Vancura",
+        "url": "https://github.com/vancura"
+    }
+}
