@@ -1,8 +1,8 @@
 {
     "name": "com.unient.graphylite",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "GraphyLite",
-    "description": "A very lightweight fork of the famous Graphy FPS library, but much simpler and optimized. Also, a bit visually aligned, I hope.",
+    "description": "A very lightweight fork of the famous Graphy FPS library, but much more straightforward and optimized. Also, a bit visually aligned, I hope.",
     "license": "MIT",
     "unity": "2019.3",
     "unityRelease": "0f3",
