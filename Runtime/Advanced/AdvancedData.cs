@@ -40,11 +40,11 @@ namespace UniEnt.GraphyLite.Runtime.Advanced {
 
         readonly string[] _windowStrings = {
             "Window: ",
-            "x",
-            "@",
+            " \u00D7 ",
+            " \u00B7 ",
             "Hz",
-            "[",
-            "dpi]"
+            " [",
+            "DPI]"
         };
         float _deltaTime;
         StringBuilder _sb;
@@ -89,13 +89,13 @@ namespace UniEnt.GraphyLite.Runtime.Advanced {
 
             processorType.text = $"CPU: {SystemInfo.processorType} [{SystemInfo.processorCount} cores]";
             systemMemory.text = $"RAM: {SystemInfo.systemMemorySize} MB";
-            graphicsDevice.text = $"Graphics API: {SystemInfo.graphicsDeviceVersion}";
-            graphicsAPI.text = $"GPU: {SystemInfo.graphicsDeviceName}";
-            graphicsMemory.text = $"VRAM: {SystemInfo.graphicsMemorySize}MB. Max texture size: {SystemInfo.maxTextureSize}px. Shader level: {SystemInfo.graphicsShaderLevel}";
+            graphicsDevice.text = $"GPU: {SystemInfo.graphicsDeviceName}";
+            graphicsAPI.text = $"Graphics API: {SystemInfo.graphicsDeviceVersion}";
+            graphicsMemory.text = $"VRAM: {SystemInfo.graphicsMemorySize} MB \u00B7 Max Texture Size: {SystemInfo.maxTextureSize} px \u00B7 Shader Level: {SystemInfo.graphicsShaderLevel}";
 
             Resolution res = Screen.currentResolution;
 
-            screenResolution.text = $"Screen: {res.width} x {res.height} @ {res.refreshRate} Hz";
+            screenResolution.text = $"Screen: {res.width} \u00D7 {res.height} \u00B7 {res.refreshRate} Hz";
             operatingSystem.text = $"OS: {SystemInfo.operatingSystem} [{SystemInfo.deviceType}]";
         }
 

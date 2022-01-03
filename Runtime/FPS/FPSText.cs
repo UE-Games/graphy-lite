@@ -55,24 +55,16 @@ namespace UniEnt.GraphyLite.Runtime.FPS {
             _fps = _frameCount / _deltaTime;
             _ms = _deltaTime / _frameCount * 1000f;
 
-            // Update fps
             fps.text = Mathf.RoundToInt(_fps).ToStringNonAlloc();
-            SetFpsRelatedTextColor(fps, _fps);
-
-            // Update ms
             ms.text = _ms.ToStringNonAlloc(MSStringFormat);
-            SetFpsRelatedTextColor(ms, _fps);
-
-            // Update 1% fps
             onePercent.text = ((int)_fpsMonitor.OnePercentFPS).ToStringNonAlloc();
-            SetFpsRelatedTextColor(onePercent, _fpsMonitor.OnePercentFPS);
-
-            // Update 0.1% fps
             zeroOnePercent.text = ((int)_fpsMonitor.Zero1PercentFps).ToStringNonAlloc();
-            SetFpsRelatedTextColor(zeroOnePercent, _fpsMonitor.Zero1PercentFps);
-
-            // Update avg fps
             avg.text = ((int)_fpsMonitor.AverageFPS).ToStringNonAlloc();
+
+            SetFpsRelatedTextColor(fps, _fps);
+            SetFpsRelatedTextColor(ms, _fps);
+            SetFpsRelatedTextColor(onePercent, _fpsMonitor.OnePercentFPS);
+            SetFpsRelatedTextColor(zeroOnePercent, _fpsMonitor.Zero1PercentFps);
             SetFpsRelatedTextColor(avg, _fpsMonitor.AverageFPS);
 
             // Reset variables

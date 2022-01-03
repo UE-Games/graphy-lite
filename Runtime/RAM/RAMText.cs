@@ -35,7 +35,6 @@ namespace UniEnt.GraphyLite.Runtime.RAM {
             if (!(_deltaTime > 1f / _updateRate))
                 return;
 
-            // Update allocated, mono and reserved memory
             allocated.text = ((int)_ramMonitor.AllocatedRam).ToStringNonAlloc();
             reserved.text = ((int)_ramMonitor.ReservedRam).ToStringNonAlloc();
             mono.text = ((int)_ramMonitor.MonoRAM).ToStringNonAlloc();
