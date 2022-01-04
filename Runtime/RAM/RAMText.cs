@@ -1,9 +1,9 @@
-﻿using UniEnt.GraphyLite.Runtime.Util;
+﻿using UniEnt.Graphy_Lite.Runtime.Util;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace UniEnt.GraphyLite.Runtime.RAM {
+namespace UniEnt.Graphy_Lite.Runtime.RAM {
 
 
     public sealed class RAMText : MonoBehaviour {

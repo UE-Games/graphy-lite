@@ -1,10 +1,10 @@
 ﻿using System.Text;
-using UniEnt.GraphyLite.Runtime.Util;
+using UniEnt.Graphy_Lite.Runtime.Util;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace UniEnt.GraphyLite.Runtime.Advanced {
+namespace UniEnt.Graphy_Lite.Runtime.Advanced {
 
 
     public sealed class AdvancedData : MonoBehaviour {

@@ -1,9 +1,9 @@
-﻿using UniEnt.GraphyLite.Runtime.Shader;
+﻿using UniEnt.Graphy_Lite.Runtime.Shader;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace UniEnt.GraphyLite.Runtime.FPS {
+namespace UniEnt.Graphy_Lite.Runtime.FPS {
 
 
     public sealed class FPSGraph : MonoBehaviour {

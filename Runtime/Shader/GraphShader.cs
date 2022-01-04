@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 
 
-namespace UniEnt.GraphyLite.Runtime.Shader {
+namespace UniEnt.Graphy_Lite.Runtime.Shader {
 
 
     /// <summary>

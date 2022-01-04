@@ -1,10 +1,10 @@
 ﻿using JetBrains.Annotations;
-using UniEnt.GraphyLite.Runtime.Util;
+using UniEnt.Graphy_Lite.Runtime.Util;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace UniEnt.GraphyLite.Runtime.FPS {
+namespace UniEnt.Graphy_Lite.Runtime.FPS {
 
 
     public sealed class FPSText : MonoBehaviour {

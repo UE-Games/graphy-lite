@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace UniEnt.GraphyLite.Runtime.Util {
+namespace UniEnt.Graphy_Lite.Runtime.Util {
 
 
     /// <inheritdoc />

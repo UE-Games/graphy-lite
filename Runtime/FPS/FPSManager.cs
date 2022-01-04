@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace UniEnt.GraphyLite.Runtime.FPS {
+namespace UniEnt.Graphy_Lite.Runtime.FPS {
 
 
     public sealed class FPSManager : MonoBehaviour {

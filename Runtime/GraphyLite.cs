@@ -1,8 +1,8 @@
-﻿using UniEnt.GraphyLite.Runtime.Util;
+﻿using UniEnt.Graphy_Lite.Runtime.Util;
 using UnityEngine;
 
 
-namespace UniEnt.GraphyLite.Runtime {
+namespace UniEnt.Graphy_Lite.Runtime {
 
 
     public sealed class GraphyLite : Singleton<GraphyLite> {

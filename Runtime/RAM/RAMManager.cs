@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace UniEnt.GraphyLite.Runtime.RAM {
+namespace UniEnt.Graphy_Lite.Runtime.RAM {
 
 
     public sealed class RAMManager : MonoBehaviour {
