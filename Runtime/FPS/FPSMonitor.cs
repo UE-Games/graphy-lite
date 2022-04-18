@@ -71,13 +71,9 @@ namespace UniEnt.Graphy_Lite.Runtime.FPS {
 
             uint totalAddedFps = 0;
 
-            short samplesToIterateThroughForOnePercent = _fpsSamplesCount < _onePercentSamples
-                ? _fpsSamplesCount
-                : _onePercentSamples;
+            short samplesToIterateThroughForOnePercent = _fpsSamplesCount < _onePercentSamples ? _fpsSamplesCount : _onePercentSamples;
 
-            short samplesToIterateThroughForZero1Percent = _fpsSamplesCount < _zero1PercentSamples
-                ? _fpsSamplesCount
-                : _zero1PercentSamples;
+            short samplesToIterateThroughForZero1Percent = _fpsSamplesCount < _zero1PercentSamples ? _fpsSamplesCount : _zero1PercentSamples;
 
             var sampleToStartIn = (short)(FPSSamplesCapacity - _fpsSamplesCount);
 

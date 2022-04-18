@@ -59,16 +59,7 @@ namespace UniEnt.Graphy_Lite.Runtime.Advanced {
             // Update screen window resolution
             _sb.Length = 0;
 
-            _sb.Append(_windowStrings[0])
-                .Append(Screen.width.ToStringNonAlloc())
-                .Append(_windowStrings[1])
-                .Append(Screen.height.ToStringNonAlloc())
-                .Append(_windowStrings[2])
-                .Append(Screen.currentResolution.refreshRate.ToStringNonAlloc())
-                .Append(_windowStrings[3])
-                .Append(_windowStrings[4])
-                .Append(((int)Screen.dpi).ToStringNonAlloc())
-                .Append(_windowStrings[5]);
+            _sb.Append(_windowStrings[0]).Append(Screen.width.ToStringNonAlloc()).Append(_windowStrings[1]).Append(Screen.height.ToStringNonAlloc()).Append(_windowStrings[2]).Append(Screen.currentResolution.refreshRate.ToStringNonAlloc()).Append(_windowStrings[3]).Append(_windowStrings[4]).Append(((int)Screen.dpi).ToStringNonAlloc()).Append(_windowStrings[5]);
 
             windowResolution.text = _sb.ToString();
 
